@@ -2,3 +2,4 @@ Flask
 gunicorn
 pandas
 scikit-learn
+naive_bayes
