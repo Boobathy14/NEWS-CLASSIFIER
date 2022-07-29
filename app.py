@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import matplotlib.pyplot as plt
 import pandas as pd
 import re
 import pickle
