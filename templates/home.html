@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>News Classification System</h1>
+    <div class="container">
+        <div id="image">
+            <img src="{{url_for('static',filename='news.png')}}" alt="" width="500px">
+        </div>
+    <form action="{{url_for('predict')}}" method="post">
+        <input type="textarea" name="news" placeholder="News"> <br> <br><button>Predict</button> <br>
+    </form>
+
+    <div>
+        <div class="output"><h1>{{prediction_text}}<h1></div>
+    </div>
+</div>
+</body>
+</html>

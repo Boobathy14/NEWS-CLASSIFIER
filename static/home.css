@@ -1,0 +1,48 @@
+body{
+background-color:#90E0EF;
+}
+h1{
+font-size:50px;
+color: #03045E;
+}
+.container{
+    margin: 80px;
+    margin-bottom: 20px;
+}
+hr{
+    float: left;
+}
+#image{
+    float:right;
+    margin-bottom: 40px;
+    width:790px;
+}
+input{
+    border-right:none ;
+    border-left:none ;
+    border-top:none ;
+    background-color: transparent;
+    font-size: 20px;
+    width: 300px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type=text]:focus {
+    width: 350px;
+    border: none;
+  }
+  
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.output{
+    color: #03045E
+}
